@@ -1,13 +1,185 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./images/pokeball.png" type="image/png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/pokeball.png" type="image/png" />
     <title>Pokedex</title>
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="#">
+        <img src="./images/pokeball.png" alt="logo pokebola" class="logo" />
+      </a>
+      <button id="botao-tema">
+        <img src="./images/sun.png" alt="sol" class="imagem-botao" />
+      </button>
+    </header>
+
+    <main>
+      <ul class="lista-pokemons">
+        <li class="cartao-pokemon">
+          <div class="informacoes-pokemon">
+            <span>Bulbassaur</span>
+            <span>#001</span>
+          </div>
+          <img src="./images/bulbasaur.gif" alt="bulbasaur gif" class="gif" />
+          <ul class="tipo-pokemon">
+            <li class="tipo-grass">Grass</li>
+            <li class="tipo-poison">Poison</li>
+          </ul>
+          <p>
+            There is a plant seed on its back right from the day this Pokémon is
+            born. The seed slowly grows larger.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes-pokemon">
+            <span>Ivysaur</span>
+            <span>#002</span>
+          </div>
+          <img src="./images/ivysaur.gif" alt="ivysaur gif" class="gif" />
+          <ul class="tipo-pokemon">
+            <li class="tipo-grass">Grass</li>
+            <li class="tipo-poison">Poison</li>
+          </ul>
+          <p>
+            When the bulb on its back grows large, it appears to lose the
+            ability to stand on its hind legs.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes-pokemon">
+            <span>Venusaur</span>
+            <span>#003</span>
+          </div>
+          <img src="./images/venusaur.gif" alt="venusaur gif" class="gif" />
+          <ul class="tipo-pokemon">
+            <li class="tipo-grass">Grass</li>
+            <li class="tipo-poison">Poison</li>
+          </ul>
+          <p>
+            Its plant blooms when it is absorbing solar energy. It stays on the
+            move to seek sunlight.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes-pokemon">
+            <span>Charmander</span>
+            <span>#004</span>
+          </div>
+          <img src="./images/charmander.gif" alt="charmander gif" class="gif" />
+          <ul class="tipo-pokemon">
+            <li class="tipo-fire">Fire</li>
+          </ul>
+          <p>
+            It has a preference for hot things. When it rains, steam is said to
+            spout from the tip of its tail.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes-pokemon">
+            <span>Charmeleon</span>
+            <span>#005</span>
+          </div>
+          <img src="./images/charmeleon.gif" alt="charmeleon gif" class="gif" />
+          <ul class="tipo-pokemon">
+            <li class="tipo-fire">Fire</li>
+          </ul>
+          <p>
+            It has a barbaric nature. In battle, it whips its fiery tail around
+            and slashes away with sharp claws.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes-pokemon">
+            <span>Charizard</span>
+            <span>#006</span>
+          </div>
+          <img src="./images/charizard.gif" alt="charizard gif" class="gif" />
+          <ul class="tipo-pokemon">
+            <li class="tipo-fire">Fire</li>
+            <li class="tipo-flying">Flying</li>
+          </ul>
+          <p>
+            It spits fire that is hot enough to melt boulders. It may cause
+            forest fires by blowing flames.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes-pokemon">
+            <span>Squirtle</span>
+            <span>#007</span>
+          </div>
+          <img src="./images/squirtle.gif" alt="squirtle gif" class="gif" />
+          <ul class="tipo-pokemon">
+            <li class="tipo-water">Water</li>
+          </ul>
+          <p>
+            When it retracts its long neck into its shell, it squirts out water
+            with vigorous force.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes-pokemon">
+            <span>Wartortle</span>
+            <span>#008</span>
+          </div>
+          <img src="./images/wartortle.gif" alt="wartortle gif" class="gif" />
+          <ul class="tipo-pokemon">
+            <li class="tipo-water">Water</li>
+          </ul>
+          <p>
+            It is recognized as a symbol of longevity. If its shell has algae on
+            it, that Wartortle is very old.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes-pokemon">
+            <span>Blastoise</span>
+            <span>#009</span>
+          </div>
+          <img src="./images/blastoise.gif" alt="blastoise gif" class="gif" />
+          <ul class="tipo-pokemon">
+            <li class="tipo-water">Water</li>
+          </ul>
+          <p>
+            It crushes its foe under its heavy body to cause fainting. In a
+            pinch, it will withdraw inside its shell.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes-pokemon">
+            <span>Caterpie</span>
+            <span>#010</span>
+          </div>
+          <img src="./images/caterpie.gif" alt="caterpie gif" class="gif" />
+          <ul class="tipo-pokemon">
+            <li class="tipo-bug">Bug</li>
+          </ul>
+          <p>
+            For protection, it releases a horrible stench from the antenna on
+            its head to drive away enemies.
+          </p>
+        </li>
+      </ul>
+    </main>
+  </body>
 </html>

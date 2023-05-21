@@ -1,0 +1,5 @@
+-Ao clicar na pokebola do logo, abrir uma pagina inicial
+
+-aumentar a lista de pokemons
+
+-pesquisar pokemons
